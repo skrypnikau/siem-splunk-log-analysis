@@ -1,0 +1,7 @@
+# Ignore raw text results from local OCR
+ocr_results.txt
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
