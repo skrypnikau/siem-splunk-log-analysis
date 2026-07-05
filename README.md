@@ -1,11 +1,11 @@
-# 🛡️ Enterprise SIEM Log Analysis (Splunk Enterprise)
+# 🛡️ SIEM / Splunk log-analysis practice (lab & TryHackMe scenarios)
 
 [![Splunk](https://img.shields.io/badge/SIEM-Splunk_Enterprise-F45C1A?logo=splunk&logoColor=white&style=for-the-badge)](https://www.splunk.com/)
 [![OS-Windows](https://img.shields.io/badge/Security-Windows_Sysmon_&_Security_Event_Logs-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 [![OS-Linux](https://img.shields.io/badge/Security-Linux_Syslog_&_Auth_Logs-FCC624?logo=linux&logoColor=black&style=for-the-badge)](https://linux.org)
 [![Nginx](https://img.shields.io/badge/Web-Nginx_&_Apache_Server_Logs-009639?logo=nginx&logoColor=white&style=for-the-badge)](https://www.nginx.com/)
 
-This project showcases hands-on log analysis in a simulated enterprise network using Splunk Enterprise. The focus is purely on log analysis: parsing and correlating logs from Windows (Sysmon & Security), Linux (syslog/auth.log), and Nginx web servers to reconstruct real-world attack paths, extract indicators of compromise (IOCs), and solve security incidents.
+This project showcases hands-on log analysis in a lab environment using Splunk. The focus is purely on log analysis: parsing and correlating logs from Windows (Sysmon & Security), Linux (syslog/auth.log), and Nginx web servers to reconstruct attack paths, extract indicators of compromise (IOCs), and solve security incidents based on TryHackMe scenarios.
 
 ---
 
@@ -137,3 +137,11 @@ This project showcases hands-on log analysis in a simulated enterprise network u
 
 ## P.S. (Post Scriptum)
 If needed, all of these threat activities can be mapped to frameworks like **MITRE ATT&CK** (e.g., T1110 for Brute Force, T1053 for Scheduled Tasks, T1548 for Privilege Escalation) and standard remediation steps (such as disabling password auth for SSH, rate-limiting `/wp-login.php` on Nginx, or setting up AppLocker policies in Windows). However, the primary goal here is to demonstrate direct, practical proficiency in working with SIEM Splunk, writing search queries (SPL), and analyzing raw security logs across OS and application layers to solve security incidents.
+
+---
+
+## Author
+
+**Yauheni Skrypnikau** — Career-changer building blue-team / SOC skills  
+*   **LinkedIn:** [linkedin.com/in/skrypnikau](https://www.linkedin.com/in/skrypnikau)
+*   **GitHub:** [github.com/skrypnikau](https://github.com/skrypnikau)
